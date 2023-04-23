@@ -8,7 +8,7 @@ The contract includes the following main components:
     
     3. Main contract function nftContract: This function initializes the contract and starts listening to the defined endpoints.
     
-    4. Payment functions payUSDT and payADA: These functions handle the payment process in either USDT or ADA. They ensure that the user pays the minimum required amount (1,000,000 in this example) and then call the mintNft function to create a new NFT.
+    4. Payment functions payUSDT and payADA: These functions handle the payment process in either USDT or ADA. They ensure that the user pays the minimum required amount  and then call the mintNft function to create a new NFT.
     
     5. Minting function mintNft: This function randomly chooses a rarity for the new NFT, creates a token name based on the rarity, and mints the NFT. It also requires the user to pay a fixed amount of USDT.
     
